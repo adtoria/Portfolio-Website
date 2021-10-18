@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.even {
+    background-color: #9aced3;
+}
+
+.odd {
+    background-color: #ead1dc;
+}
+
+h1 {
+    font-family: 'Dancing Script';
+    font-size: 45px;
+    text-align: center;
+}
+
+.sections {
+    padding: 60px;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: row;
+}
+
+/* -------- HEADER SECTION -------- */
+
+header {
+    background-color: #d41374;
+    display: block;
+}
+
+#hamburger {
+    position: relative;
+}
+
+nav ul {
+    background-color: #d41374;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0 25px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+
+li a {
+    color: white;
+    display: inline-block;
+    font-family: Mada;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+li a:hover {
+    background-color: #ead1dc;
+    border-radius: 5pt;
+    color: #d41374;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+/* -------- INTRO SECTION -------- */
+
+#intro-section {
+    font-family: Ephesis;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    padding: 80px 30px 30px 200px;
+}
+
+#name {
+    font-size: 75px;
+    padding: 50px;
+}
+
+/* -------- ABOUT SECTION -------- */
+
+#about-img {
+    border-radius: 100%;
+    padding: 20px;
+    width: 350px;
+}
+
+#about-text {
+    padding: 50px;
+}
+
+#about-para {
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    line-height: 25pt;
+    padding: 15px;
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* -------- SKILLS SECTION -------- */
+
+.container-icon {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+.skill-icon {
+    padding: 30px;
+}
+
+.skill-icon:hover {
+    color: #0a94a6;
+    transform: scale(1.050);
+    transition: 0.4s;
+}
+
+.skill-icon i {
+    font-size: 55px;
+}
+
+/* -------- EDUCATION SECTION -------- */
+
+#education-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    vertical-align: auto;
+}
+
+.education {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 45px;
+    text-align: center;
+}
+
+.education:hover {
+    background-color: #ead1dc;
+    border-radius: 2%;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+/* -------- GALLERY SECTION -------- */
+
+.gallery-images {
+    text-align: center;
+}
+
+.art {
+    height: 275px;
+    width: 350px;
+    padding: 10px;
+}
+
+.art:hover {
+    background: linear-gradient(#ead1dc, #ead1dc);
+    transform: scale(1.050);
+    transition: all 0.4s linear;
+}
+
+/* -------- CONTACT SECTION -------- */
+
+#contact-section {
+    padding-top: 40px;
+}
+
+#contact-container {
+    padding-top: 20px;
+}
+
+.contact-icon i {
+    font-size: 35px;
+    color: #252525;
+}
+
+.contact-icon i:hover {
+    color: #d41374;
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+
+/* -------- FOOTER SECTION -------- */
+
+#footer-section {
+    background-color: #d41374;
+    color: white;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+}
+
+.footer-text {
+    font-family: Mada;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
