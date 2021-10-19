@@ -155,20 +155,24 @@ li a:hover {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    padding-top: 30px;
     vertical-align: auto;
 }
 
-.education {
+.education-card {
+    background: #023047;
+    color: white;
     font-family: Poppins;
     font-size: 18px;
-    font-weight: bold;
+    letter-spacing: 1pt;
     padding: 5px 45px;
     text-align: center;
     transition: transform 0.4s;
+    box-shadow: 4px 3px 8px 1px #969696;
+  	-webkit-box-shadow: 4px 3px 8px 1px #969696;
 }
 
-.education:hover {
-    border-radius: 2%;
+.education-card:hover {
     transform: scale(1.1);
 }
 
@@ -186,7 +190,6 @@ li a:hover {
 }
 
 .art:hover {
-    background: linear-gradient(#ead1dc, #ead1dc);
     transform: scale(1.050);
 }
 
