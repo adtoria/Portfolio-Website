@@ -132,6 +132,7 @@ li a:hover {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     padding-top: 30px;
+    padding-bottom: 20px;
     vertical-align: auto;
 }
 
