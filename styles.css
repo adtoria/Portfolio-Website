@@ -125,30 +125,6 @@ li a:hover {
     font-weight: bold;
 }
 
-/* -------- SKILLS SECTION -------- */
-
-.container-icon {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    text-align: center;
-    width: 100%;
-}
-
-.skill-icon {
-    padding: 30px;
-    transition: transform 0.4s;
-}
-
-.skill-icon:hover {
-    color: #0a94a6;
-    transform: scale(1.050);
-}
-
-.skill-icon i {
-    font-size: 55px;
-}
-
 /* -------- EDUCATION SECTION -------- */
 
 #education-container {
@@ -176,6 +152,30 @@ li a:hover {
     transform: scale(1.1);
 }
 
+/* -------- SKILLS SECTION -------- */
+
+.container-icon {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+.skill-icon {
+    padding: 30px;
+    transition: transform 0.4s;
+}
+
+.skill-icon:hover {
+    color: #0a94a6;
+    transform: scale(1.050);
+}
+
+.skill-icon i {
+    font-size: 55px;
+}
+
 /* -------- GALLERY SECTION -------- */
 
 .gallery-images {
@@ -190,7 +190,56 @@ li a:hover {
 }
 
 .art:hover {
-    transform: scale(1.050);
+    transform: scale(1.040);
+}
+
+/* -------- PROJECT SECTION -------- */
+
+#project-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.project-card {
+    background: #023047;
+    color: white;
+    font-family: Poppins;
+    font-size: 15px;
+    height: 183px;
+    letter-spacing: 1pt;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.4s;
+    width: 350px;
+    box-shadow: 4px 3px 8px 1px #969696;
+  	-webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+
+.project-card:hover {
+    transform: scale(1.025);
+}
+
+.project-card p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.btn {
+    border-radius: 2%;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 7px;
+    padding: 3px 8px;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #023047;
 }
 
 /* -------- CONTACT SECTION -------- */
