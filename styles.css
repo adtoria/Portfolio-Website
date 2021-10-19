@@ -260,7 +260,7 @@ li a:hover {
 }
 
 .contact-icon i:hover {
-    color: #d41374;
+    color: orangered;
     transform: scale(1.3);
 }
 
