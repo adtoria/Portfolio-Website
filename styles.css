@@ -79,11 +79,11 @@ li a {
     padding-right: 5px;
     text-decoration: none;
     text-transform: lowercase;
+    transition: transform 0.4s;
 }
 
 li a:hover {
     transform: scale(1.2);
-    transition: 0.4s;
 }
 
 /* -------- INTRO SECTION -------- */
@@ -137,12 +137,12 @@ li a:hover {
 
 .skill-icon {
     padding: 30px;
+    transition: transform 0.4s;
 }
 
 .skill-icon:hover {
     color: #0a94a6;
     transform: scale(1.050);
-    transition: 0.4s;
 }
 
 .skill-icon i {
@@ -164,13 +164,12 @@ li a:hover {
     font-weight: bold;
     padding: 5px 45px;
     text-align: center;
+    transition: transform 0.4s;
 }
 
 .education:hover {
-    background-color: #ead1dc;
     border-radius: 2%;
     transform: scale(1.1);
-    transition: 0.4s;
 }
 
 /* -------- GALLERY SECTION -------- */
@@ -183,12 +182,12 @@ li a:hover {
     height: 275px;
     width: 350px;
     padding: 10px;
+    transition: transform 0.4s;
 }
 
 .art:hover {
     background: linear-gradient(#ead1dc, #ead1dc);
     transform: scale(1.050);
-    transition: all 0.4s linear;
 }
 
 /* -------- CONTACT SECTION -------- */
@@ -204,12 +203,12 @@ li a:hover {
 .contact-icon i {
     font-size: 35px;
     color: #252525;
+    transition: transform 0.4s;
 }
 
 .contact-icon i:hover {
     color: #d41374;
     transform: scale(1.3);
-    transition: 0.4s;
 }
 
 /* -------- FOOTER SECTION -------- */
