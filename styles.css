@@ -129,6 +129,7 @@ li a:hover {
 /* -------- EDUCATION SECTION -------- */
 
 #education-container {
+    align-items: center;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
@@ -174,7 +175,7 @@ li a:hover {
     }
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .education-card {
       float: left;
       width: 45%;
@@ -187,7 +188,7 @@ li a:hover {
         width: 30%;
         margin-right: 3.33%;
     }
-}
+} */
 
 /* -------- SKILLS SECTION -------- */
 
@@ -216,6 +217,7 @@ li a:hover {
 /* -------- PROJECT SECTION -------- */
 
 #project-container {
+    align-items: center;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
@@ -273,7 +275,7 @@ li a:hover {
 /* -------- GALLERY SECTION -------- */
 
 .gallery-images {
-    text-align: center;
+    align-items: center;
 }
 
 .art {
@@ -294,6 +296,8 @@ li a:hover {
 }
 
 #contact-container {
+    display: flex;
+    flex-direction: row;
     padding-top: 20px;
 }
 
