@@ -153,6 +153,26 @@ li a:hover {
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 900px) {
+
+    #education-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #high-school {
+        margin-bottom: 15px;
+    }
+
+    #college {
+        margin-top: 15px;
+    }
+
+    .education-card {
+        width: 40vw;
+    }
+}
+
 /* -------- SKILLS SECTION -------- */
 
 .container-icon {
