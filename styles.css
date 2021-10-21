@@ -173,6 +173,21 @@ li a:hover {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .education-card {
+      float: left;
+      width: 45%;
+      margin-right: 5%;
+    }
+  }
+  
+@media screen and (min-width: 992px) {
+.education-card {
+    width: 30%;
+    margin-right: 3.33%;
+}
+}
+
 /* -------- SKILLS SECTION -------- */
 
 .container-icon {
